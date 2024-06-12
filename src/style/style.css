@@ -49,20 +49,6 @@ header {
     color: #fff;
     background: linear-gradient(90deg, #3730a3, #7e22ce);
 }
-.networks {
-    text-align: right;
-    position: absolute; 
-    top: 0;
-    right: 0;
-}
-
-.networks img {
-    width: 2%;
-    margin: 5px;
-}
-.networks img:hover {
-    transform: scale(1.2); 
-}
 .box {
     padding: 20px;
     margin: 20px auto;

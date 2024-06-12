@@ -19,10 +19,6 @@
     }
 }
 @media screen and (max-width: 600px) {
-    .networks img {
-        width: 5%;
-        margin: 3px;
-    }
     .title img {
         width: 40%;
     }
