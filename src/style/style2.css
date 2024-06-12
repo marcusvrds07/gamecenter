@@ -1,0 +1,145 @@
+
+/* INICIO */
+
+@media screen and (max-width: 1100px) {
+    .move {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 18%;
+    }
+    .card {
+        margin-bottom: 30px
+    }
+    .menu {
+        margin-top: 5%;
+    }
+    .title img {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .networks img {
+        width: 5%;
+        margin: 3px;
+    }
+    .title img {
+        width: 40%;
+    }
+}
+/* MINECRAFT */
+
+@media screen and (max-width: 936px) {
+    .mine {
+        background-image: url(../images/header-mine936x.png);
+        height: 165px;
+    }
+    .mine .menu ul {
+        margin-top: -120px;
+    }
+    .title2 img {
+        margin-top: -60px;
+        width: 70%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .mine {
+        background-image: url(../images/header-mine800x.png);
+        height: 165px;
+    }
+    .mine .menu ul {
+        margin-top: -120px;
+    }
+    .title2 img {
+        margin-top: -60px;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 608px) {
+    .info img {
+        display: flex;
+        width: 94%;
+        align-items: center;
+        border-radius: 20px;
+    } 
+    .info {
+        margin-top: 35px;
+        margin-left: 20px;
+        width: 250px;
+        float: right;
+        color: white;
+        border: 3px solid gray;
+        border-radius: 20px;
+    }
+    .info2{
+        margin-top: 210px;
+    }
+    .mine .menu ul {
+        margin-top: -80px;
+    }
+    .title2 img {
+        margin-top: -60px;
+        width: 100%;
+        }
+    }
+    @media screen and (max-width: 555px) {
+        .info img {
+            display: flex;
+            width: 93%;
+            align-items: center;
+            border-radius: 20px;
+        } 
+        .info {
+            margin-top: 35px;
+            margin-left: 20px;
+            width: 200px;
+            float: right;
+            color: white;
+            border: 3px solid gray;
+            border-radius: 20px;
+        }
+        .info2{
+            margin-top: 210px;
+        }
+        .btitle h1 {
+            font-size: 16px;
+        }
+        }
+        @media screen and (max-width: 502px) {
+            .info img {
+                display: flex;
+                width: 93%;
+                align-items: center;
+                border-radius: 20px;
+            } 
+            .info {
+                margin-top: 35px;
+                margin-left: 20px;
+                width: 168px;
+                float: right;
+                color: white;
+                border: 3px solid gray;
+                border-radius: 20px;
+            }
+            .btitle h1 {
+                font-size: 16px;
+            }
+            .info2{
+                margin-top: 220px;
+            }
+        }
+        @media screen and (max-width: 481px) {
+            .info {
+                display: none;
+            }
+        } 
+
+        @keyframes grow {
+            from {
+                transform: scale(0.8);
+            }
+            to {
+                transform: scale(1.3);
+            }
+        }
