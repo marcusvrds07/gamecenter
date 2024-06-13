@@ -19,8 +19,6 @@ header {
     background-image: url('../images/flash.jpg');
 }
 .title {
-    color: white;
-    font-weight: bold;
     text-align: center;
     padding-top: 2%;
     animation: grow 5s infinite alternate;
@@ -56,7 +54,7 @@ header {
     border-radius: 5px;
     width: 95%;
     box-shadow: 0 2px 5px black;
-    color: #ddd;
+    color: #adacac;
     text-align: center;
 }
 .card {
@@ -126,18 +124,11 @@ header {
    border-radius: 8px;
 }
 .move {
+    margin-top: 130px;
     width: 100%;
     display: flex;
     justify-content: space-around;
     margin-bottom: 2%;
-}
-footer {
-    background-color: #000000;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    width: 100%;
-    margin-top: 70px;
 }
 
 /* MINECRAFT PAGE */
@@ -302,4 +293,46 @@ footer {
 }
 .csgo .menu a:hover {
     background: linear-gradient(90deg, rgba(88,73,44,0.999964951801033) 24%, rgba(208,146,27,0.6358192935377276) 64%, rgba(93,77,47,0.7870797977394083) 89%);
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 130px;
+}
+.social {
+    background-color: #000000;
+    color: #adacac;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.social li {
+    display: inline-block;
+    width: 40px;
+    margin-left: 10px;
+}
+.social ul {
+    text-align: center ;
+}
+.x {
+    margin-bottom: 1px;
+}
+.face {
+    margin-bottom: 1px;
+}
+.copyright {
+    background-color: #0c0c0c;
+    padding: 20px;
+    color: #adacac;
+    text-align: center;
+}
+.footermenu {
+    margin-top: 15px;
+}
+.footermenu li {
+    margin-left: 0px;
+}
+.footermenu a {
+    text-decoration: none;
+    color: #adacac;
 }
