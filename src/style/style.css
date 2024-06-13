@@ -227,7 +227,7 @@ header {
     color: #fff;
 }
 .contentv .box {
-    background-color: #2d3c49;
+    background-color: #2e3f4f;
 }
 .contentv .box {
     text-align: justify;
@@ -252,7 +252,7 @@ header {
     font-size: 10px;
 }
 .riot a {
-    color: blue;
+    color: rgb(85, 85, 202);
 }
 .mode {
     font-size: 14px;
@@ -265,10 +265,6 @@ header {
 }
 .contentv .info2 {
     margin-top: 280px;
-}
-
-.contentv footer {
-    background-color: #2d3c49;
 }
 .contentv .menu a:hover {
     background: linear-gradient(90deg, rgba(0,3,36,1) 0%, rgba(9,37,121,1) 34%, rgba(0,212,255,1) 100%);
@@ -297,7 +293,7 @@ header {
 
 /* FOOTER */
 
-footer {
+.start footer {
     margin-top: 130px;
 }
 .social {
@@ -313,6 +309,9 @@ footer {
 }
 .social ul {
     text-align: center ;
+}
+.social img:hover {
+    transform: scale(1.2);
 }
 .x {
     margin-bottom: 1px;
@@ -335,4 +334,19 @@ footer {
 .footermenu a {
     text-decoration: none;
     color: #adacac;
+}
+.footergames {
+    margin-top: 50px;
+}
+.contentv .social {
+    background-color: #2e3f4f;
+}
+.contentv .copyright {
+    background-color: #26323d;
+}
+.contentcs .social{
+    background-color: #000000;
+}
+.contentcs .copyright {
+    background-color: #0c0c0c;
 }
