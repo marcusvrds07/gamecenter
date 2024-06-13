@@ -6,7 +6,7 @@
         width: 100%;
         flex-direction: column;
         align-items: center;
-        margin-top: 18%;
+        margin-top: 16%;
     }
     .card {
         margin-bottom: 30px
@@ -18,9 +18,28 @@
         width: 25%;
     }
 }
-@media screen and (max-width: 600px) {
+@media (min-width: 750px) and (max-width:1100px) {
     .title img {
-        width: 40%;
+        width: 20%;
+    }
+}
+@media (min-width: 820px) and (max-width:1100px) {
+    .menu ul {
+        margin-top: -35px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .title-menu{
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .title img {
+        width: 30%;
+    }
+    .title-menu{
+        padding-top: 30px;
     }
 }
 /* MINECRAFT */
@@ -72,7 +91,7 @@
         margin-top: 210px;
     }
     .mine .menu ul {
-        margin-top: -80px;
+        margin-top: -110px;
     }
     .title2 img {
         margin-top: -60px;
@@ -125,7 +144,7 @@
                 margin-top: 220px;
             }
         }
-        @media screen and (max-width: 481px) {
+        @media screen and (max-width: 502px) {
             .info {
                 display: none;
             }
