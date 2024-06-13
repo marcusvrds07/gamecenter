@@ -54,7 +54,7 @@ header {
     border-radius: 5px;
     width: 95%;
     box-shadow: 0 2px 5px black;
-    color: #adacac;
+    color: #fff;
     text-align: center;
 }
 .card {
@@ -83,6 +83,9 @@ header {
     transition: 0.5s;
     margin-left: 15%;
     margin-top: 8%;
+}
+.card .content h2 {
+    color: white;
 }
 
 .card:hover .img-box {
@@ -119,7 +122,7 @@ header {
 .card .read-more {
    background: linear-gradient(90deg, #3730a3, #7e22ce);
    padding: 12px;
-   color: #ffffff;
+   color: #fff;
    text-decoration: none;
    border-radius: 8px;
 }
