@@ -4,10 +4,12 @@
 @media screen and (max-width: 1100px) {
     .move {
         width: 100%;
-        margin-top: 130px;
         flex-direction: column;
         align-items: center;
         margin-top: 16%;
+    }
+    .start {
+        margin-top: 65px;
     }
     .card {
         margin-bottom: 30px
@@ -41,6 +43,32 @@
     }
     .title-menu{
         padding-top: 30px;
+    }
+}
+@media screen and (max-width: 355px) {
+    .card {
+        width: 300px;
+        height: 250px;
+    }
+    .card:hover {
+        height: 480px;
+        margin-top: 6%;
+    }
+    .card:hover .img-box {
+        top: -80px;
+        scale: 0.75;
+        margin-left: 15%;
+    }
+    .card .img-box {
+        width: 200px;
+    }
+    .card .content {
+        top: 200px;
+        width: 100%;
+    }
+    .card:hover .content {
+        top: 95px;
+        height: 370px;
     }
 }
 /* MINECRAFT */
