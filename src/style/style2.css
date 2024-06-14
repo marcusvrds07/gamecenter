@@ -250,6 +250,9 @@
             .csgo .menu {
                 margin-top: -70px;
             }
+            .mine .menu {
+                margin-top: -70px;
+            }
         } 
 
         @keyframes grow {
