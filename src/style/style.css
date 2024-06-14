@@ -276,7 +276,7 @@ header {
 /* CSGO PAGE */
 
 .csgo {
-    background-image: url(../images/headercs.webp);
+    background-image: url(../images/csgo.jpg);
     height: 400px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -288,12 +288,26 @@ header {
     margin-top: -100px;
 }
 .csgo .menu a {
-    color: black;
+    color: white;
 }
 .csgo .menu a:hover {
     background: linear-gradient(90deg, rgba(88,73,44,0.999964951801033) 24%, rgba(208,146,27,0.6358192935377276) 64%, rgba(93,77,47,0.7870797977394083) 89%);
 }
-
+.contentcs .box {
+    background-color: #000000;
+}
+.path {
+    margin-left: 112px;
+}
+.commit {
+    font-size: 14px;
+    margin-left: 13px;
+    margin-top: 20px;
+}
+.commit p {
+    margin-top: -21px;
+    margin-left: 100px
+}
 /* FOOTER */
 
 .start {

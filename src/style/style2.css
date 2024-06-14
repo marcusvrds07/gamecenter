@@ -85,8 +85,23 @@
         margin-top: -60px;
         width: 70%;
     }
+    .valorant {
+        background-image: url(../images/header-vava936.jpg);
+        height: 278px;
+    }
+    .contentv .title2 img {
+        margin-top: -1px;
+    }
+    .csgo {
+        background-image: url(../images/csgo936.jpg);
+        height: 268px;
+    }
+    .contentcs .title2 img {
+        margin-top: -75px;
+        width: 65%;
+    }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 820px) {
     .mine {
         background-image: url(../images/header-mine800x.png);
         height: 165px;
@@ -97,6 +112,24 @@
     .title2 img {
         margin-top: -60px;
         width: 70%;
+    }
+    .valorant {
+        background-image: url(../images/header-vava800.jpg);
+        height: 238px;
+    }
+    .contentv .title2 img {
+        margin-top: -10px;
+    }
+    .vava .menu ul {
+        margin-top: -50px;
+    }
+    .csgo {
+        background-image: url(../images/csgo800.jpg);
+        height: 228px;
+    }
+    .contentcs .title2 img {
+        margin-top: -70px;
+        width: 60%;
     }
 }
 
@@ -126,6 +159,28 @@
         margin-top: -60px;
         width: 100%;
         }
+        .contentcs .title2 img {
+            width: 80%;
+            margin-top: -60px;
+        }
+    }
+    @media (min-width: 609px) and (max-width:700px) {
+        .contentcs .title2 img {
+            width: 70%;
+            margin-top: -60px;
+        }
+    }
+    @media (min-width: 700px) and (max-width:746px) {
+        .contentcs .title2 img {
+            width: 65%;
+            margin-top: -60px;
+        }
+    }
+    @media (min-width: 746px) and (max-width:819px) {
+        .contentcs .title2 img {
+            width: 63%;
+            margin-top: -60px;
+        }
     }
     @media screen and (max-width: 555px) {
         .info img {
@@ -148,6 +203,13 @@
         }
         .btitle h1 {
             font-size: 16px;
+        }
+        .contentv .info {
+            display: none;
+        }
+        .contentcs .title2 img {
+            width: 85%;
+            margin-top: -60px;
         }
         }
         @media screen and (max-width: 502px) {
@@ -172,10 +234,21 @@
             .info2{
                 margin-top: 220px;
             }
-        }
-        @media screen and (max-width: 502px) {
+            .contentcs .title2 img {
+                width: 95%;
+                margin-top: -60px;
+            }
             .info {
                 display: none;
+            }
+        }
+        @media screen and (max-width: 450px) {
+            .contentcs .title2 img {
+                width: 100%;
+                margin-top: -60px;
+            }
+            .csgo .menu {
+                margin-top: -70px;
             }
         } 
 
