@@ -211,6 +211,9 @@
             width: 85%;
             margin-top: -60px;
         }
+        .mine .menu ul {
+            margin-top: -95px;
+        }
         }
         @media screen and (max-width: 502px) {
             .info img {
@@ -241,6 +244,9 @@
             .info {
                 display: none;
             }
+            .mine .menu ul {
+                margin-top: -85px;
+            }
         }
         @media screen and (max-width: 450px) {
             .contentcs .title2 img {
@@ -250,8 +256,8 @@
             .csgo .menu {
                 margin-top: -70px;
             }
-            .mine .menu {
-                margin-top: -70px;
+            .mine .menu ul {
+                margin-top: -75px;
             }
         } 
 
